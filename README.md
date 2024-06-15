@@ -28,7 +28,7 @@ Prerequisites
 Steps
 
 1. Clone the repository:
-    git clone <repository-link>
+    git clone https://github.com/ANIKETKOLI20/Kraftshala_Frontend-Intern_Aniket_Weather_App
     cd weather-app
 
 2. Install the dependencies: 
@@ -54,25 +54,16 @@ Approach and Technologies
 
 Known Issues and Limitations
 
-◦ The application currently fetches weather data for one location at a time.
 ◦ Error handling for API responses and invalid inputs is basic and can be improved.
 ◦ Additional enhancements like animations and transitions for better user experience are not implemented.
 
 Screenshots / Screen Recordings / Live Demo
-◦ Screenshots and screen recordings are available in the Google Drive folder: Kraftshala_Frontend Intern_YourName
-◦ Live demo (if available): Live Demo Link
+◦ Screen recordings are available in the Google Drive folder: Kraftshala_Frontend Intern_Aniket
+◦ Live demo : https://drive.google.com/file/d/1EQ6EhnYG4EpNesGN_tZwEPktuSd_wRLq/view?usp=sharing
 
-Deployment
-The application can be deployed on platforms like Vercel, Netlify, or any other preferred hosting service. Below is a basic guide for deploying on Vercel:
 
-Install Vercel CLI:
 
-    npm install -g vercel
 
-Deploy the app: 
-    vercel
-
-Follow the prompts to complete the deployment.
 
 License
 This project is licensed under the MIT License.

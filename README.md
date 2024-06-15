@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+Weather Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Features
+◦ Fetches and displays current weather information based on user input.
+◦ Provides information such as location, temperature, date, and time.
+◦ Includes a search functionality for fetching weather data for different locations.
+◦ Responsive design for various devices (desktop, tablet, mobile).
+◦ Dark mode and light mode toggle functionality.
+◦ Displays additional weather details such as humidity, wind speed, and weather description.
 
-In the project directory, you can run:
+Bonus Features
+◦ Dark Mode: Implementation of a dark mode and light mode toggle functionality.
+◦ Multiple Locations: Ability to display weather information for multiple locations at the same time.
+◦ Additional Weather Information: Display additional weather details such as humidity, wind speed, and weather description.
 
-### `npm start`
+Technologies Used
+◦ HTML
+◦ CSS
+◦ JavaScript
+◦ React
+◦ Open Weather API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Installation and Running the Application
+Prerequisites
+◦ Node.js and npm installed on your machine.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Steps
 
-### `npm test`
+1. Clone the repository:
+    git clone <repository-link>
+    cd weather-app
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install the dependencies: 
+    npm install
 
-### `npm run build`
+3.  Open Weather API key:
+    `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=$dc960d58c1d2da86c7fed960e58b0ce4&units=imperial
+    
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Start the development server:
+    npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Approach and Technologies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+◦ HTML & CSS: Used for structuring and styling the application.
+◦ JavaScript (React): Used for building the user interface and managing state.
+◦ Open Weather API: Integrated to fetch real-time weather data based on user input.
+◦ Responsive Design: Ensured the app works well on various devices.
+◦ Dark Mode: Implemented a toggle feature for switching between dark and light modes using CSS and React state management.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Known Issues and Limitations
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+◦ The application currently fetches weather data for one location at a time.
+◦ Error handling for API responses and invalid inputs is basic and can be improved.
+◦ Additional enhancements like animations and transitions for better user experience are not implemented.
 
-## Learn More
+Screenshots / Screen Recordings / Live Demo
+◦ Screenshots and screen recordings are available in the Google Drive folder: Kraftshala_Frontend Intern_YourName
+◦ Live demo (if available): Live Demo Link
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Deployment
+The application can be deployed on platforms like Vercel, Netlify, or any other preferred hosting service. Below is a basic guide for deploying on Vercel:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Install Vercel CLI:
 
-### Code Splitting
+    npm install -g vercel
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Deploy the app: 
+    vercel
 
-### Analyzing the Bundle Size
+Follow the prompts to complete the deployment.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+License
+This project is licensed under the MIT License.

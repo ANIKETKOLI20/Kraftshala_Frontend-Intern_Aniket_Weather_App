@@ -39,7 +39,7 @@ Steps
     
 
 4. Start the development server:
-    npm start
+    https://kraftshala-frontend-intern-aniket-weather-app.vercel.app/
 
 
 
